@@ -15,3 +15,69 @@ body{
     color: var(--primary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
+
+/* header start*/
+header{
+    padding: 15px 0;
+    background-color: var(--heading-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header nav{
+    margin: 0 45px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    color: var(--accent-color);
+    border-bottom: solid 3px var(--accent-color) ;
+    margin-right: 10px;
+}
+
+header nav ul li a:hover{
+    background-color: var(--accent-color);
+    color: var(--heading-color);
+}
+
+.flex-h1-container{
+    padding: 3px 15px 3px 100px;
+    background-color: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-h1-container h1{
+    text-align: right;
+}
+
+.flex-h1-container h1 a{
+    color: var(--heading-color);
+    font-weight: bold;
+    font-size: 2.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+/* header end*/
