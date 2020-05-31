@@ -35,7 +35,7 @@ header a{
 }
 
 header nav{
-    margin: 0 45px;
+    margin: 0 65px;
 }
 
 header nav ul {
@@ -81,14 +81,35 @@ header nav ul li a:hover{
 /* header end*/
 
 
-/* common/utility classes start */
+/* all sections - common classes start */
 .card{
     padding: 5px;
     background-color: var(--accent-color);
     color: var(--heading-color);
     margin-bottom: 20px;
 }
-/* common/utility classes end */
+.section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.section-left{
+    text-align: right;
+    width: 15%;
+    padding-right: 10px;
+    writing-mode: ;
+}
+.section-left h2{
+    font-size: 38px;
+}
+.section-right{
+    width: 85%;
+    border-left: solid 3px var(--primary-color);
+    padding: 0 80px 15px 20px;
+}
+/* all sections - common classes end */
 
 
 /* jumbotron start */
@@ -104,7 +125,15 @@ header nav ul li a:hover{
 }
 
 .jumb h2{
-    margin-right: 55px;
+    margin-right: 80px;
     font-size: 1.4vw;
 }
 /* jumbotron end */
+
+
+/* about me start */
+.section-right p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+/* about me end */
