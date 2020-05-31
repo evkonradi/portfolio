@@ -78,6 +78,33 @@ header nav ul li a:hover{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-
-
 /* header end*/
+
+
+/* common/utility classes start */
+.card{
+    padding: 5px;
+    background-color: var(--accent-color);
+    color: var(--heading-color);
+    margin-bottom: 20px;
+}
+/* common/utility classes end */
+
+
+/* jumbotron start */
+.jumb{
+    background-image: url("../images/banner3.webp");
+    background-size: cover;
+    background-position: 0% 0%;
+    min-height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end ;
+}
+
+.jumb h2{
+    margin-right: 55px;
+    font-size: 1.4vw;
+}
+/* jumbotron end */
