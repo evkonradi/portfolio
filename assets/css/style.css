@@ -50,7 +50,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     color: var(--accent-color);
     border-bottom: solid 3px var(--accent-color) ;
     margin-left: 10px;
@@ -150,7 +150,7 @@ header nav ul li a:hover{
     align-items: center;
 }
 .contact-me-flex a{
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     color: var(--heading-color);
     padding-left: 2px;
     border-bottom: solid 3px var(--heading-color);
@@ -225,6 +225,38 @@ header nav ul li a:hover{
 .work-card-subtitle{
     font-size: 0.8vw;
 }
-
 /* Work section end */ 
 
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .section-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+    .section-left{
+        border-right: none;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .section-left h2{
+        border-bottom: solid 3px var(--primary-color);
+        padding-left: 60px;
+        padding-right: 60px;
+        display: inline;
+    }
+    .section-right{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
+}
