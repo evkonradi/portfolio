@@ -179,7 +179,7 @@ header nav ul li a:hover{
 .work-grid-item-1{
     grid-column: 1/span 2;
     grid-row: 1/span 2;
-    background-image: url("../images/projectMain.png");
+    background-image: url("../images/Rentz1.JPG");
 }
 .work-grid-item-2{
     background-image: url("../images/project2.png");
@@ -225,6 +225,10 @@ header nav ul li a:hover{
 }
 .work-card-subtitle{
     font-size: 0.8vw;
+}
+
+.work-card-link{
+    color: var(--primary-color);
 }
 /* Work section end */ 
 
