@@ -179,7 +179,7 @@ header nav ul li a:hover{
 .work-grid-item-1{
     grid-column: 1/span 2;
     grid-row: 1/span 2;
-    background-image: url("../images/Rentz1.jpg");
+    background-image: url("../images/rentz.jpg");
 }
 .work-grid-item-2{
     background-image: url("../images/project2.png");
