@@ -1,6 +1,6 @@
-# portfolio - Elena Konradi
+# Portfolio 
 
-This website is a portfolio my Web Development projects. Please take a look at the projects I have been working on.
+This website is a portfolio template that can be used to display your projects. It was created with HTML and CSS.
 
 
 # Deployed web site
